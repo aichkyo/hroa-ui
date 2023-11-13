@@ -5,10 +5,12 @@
  */
 // 引入组件
 import hrButton from "./hr-button";
+import hrInput from "./hr-input";
 
 // 存储组件列表
 const components = [
   hrButton,
+  hrInput
 ];
 
 // 定义install方法，接受vue作为参数
@@ -31,4 +33,5 @@ if (typeof window !== "undefined" && window.Vue) {
 export default {
   install,
   hrButton,
+  hrInput,
 };
