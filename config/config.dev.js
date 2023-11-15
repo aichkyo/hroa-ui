@@ -31,6 +31,9 @@ module.exports = defineConfig({
       .include
       .add('/packages')
         .end()
+      .include
+      .add('/examples')
+        .end()
       .use('babel')
         .loader('babel-loader')
       .tap(options => {

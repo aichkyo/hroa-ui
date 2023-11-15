@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name hrui ./examples/packages/index.js"
+    "lib": "vue-cli-service build --target lib --name index ./examples/packages/index.js --dest dist"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -23,7 +23,7 @@
     "eslint-plugin-vue": "^8.0.3",
     "vue-template-compiler": "^2.6.14"
   },
-  "main": "dist/hrui.umd.js",
+  "main": "dist/index.umd.js",
   "description": "hroa-ui",
   "files": [
     "dist",
