@@ -6,7 +6,8 @@
     "moduleResolution": "node",
     "paths": {
       "@/*": [
-        "examples/*"
+        "examples/*",
+        "packages/*"
       ]
     },
     "lib": [

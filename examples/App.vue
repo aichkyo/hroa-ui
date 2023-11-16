@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import hrButton from './packages/hr-button'
-import HrInput from './packages/hr-input';
+import hrButton from '../packages/hr-button'
+import HrInput from '../packages/hr-input';
 
 export default {
   name: 'App',
